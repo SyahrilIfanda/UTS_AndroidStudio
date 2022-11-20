@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:background="@drawable/frame">
+
+        <Button
+            android:contentDescription="cari"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/menu"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:contentDescription="home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/aearch" />
+
+        <Button
+            android:contentDescription="co yuk"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/keranjang"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/homepage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="178dp"
+                android:src="@drawable/kaos"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/material_motion_duration_long_1" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="178dp"
+                android:src="@drawable/kemeja"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/homepage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="178dp"
+                android:src="@drawable/pants"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="178dp"
+                android:src="@drawable/jacket"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
